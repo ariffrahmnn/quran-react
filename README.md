@@ -30,5 +30,4 @@ Phase: Initial Prototype & Learning Foundation.
 - Dark Mode Optimization: Adding a theme switcher to enhance readability during night-time usage.
 - Typography Refinement: Integrating variable fonts and advanced CSS line-height calculations to perfectly align Arabic calligraphy with Indonesian translations.
 - Animation Transitions: Utilizing Framer Motion for smooth page transitions between the surah list and verse details.
-
-Client-Side Caching: Implementing TanStack Query (React Query) to cache API responses, reducing server load and improving instant navigation.
+- Client-Side Caching: Implementing TanStack Query (React Query) to cache API responses, reducing server load and improving instant navigation.
