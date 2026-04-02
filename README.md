@@ -26,8 +26,4 @@ Phase: Initial Prototype & Learning Foundation.
 - Conditional Rendering: Implementing "Loading" and "Error" states to provide a robust user interface.
 
 ## 🚀 Potential Future (Enhancement & Styling)
-- Advanced UI/UX Overhaul: Implementing Tailwind CSS or Material UI to create a more modern, responsive, and aesthetically pleasing interface.
-- Dark Mode Optimization: Adding a theme switcher to enhance readability during night-time usage.
-- Typography Refinement: Integrating variable fonts and advanced CSS line-height calculations to perfectly align Arabic calligraphy with Indonesian translations.
-- Animation Transitions: Utilizing Framer Motion for smooth page transitions between the surah list and verse details.
-- Client-Side Caching: Implementing TanStack Query (React Query) to cache API responses, reducing server load and improving instant navigation.
+- Advanced UI/UX Overhaul: Implementing CSS Native or Material UI to create a more modern, responsive, and aesthetically pleasing interface.
