@@ -94,3 +94,46 @@ p {
   
 }
 
+.card-container-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card-content-detail {
+  border: 1px solid rgba(139, 174, 102, 1);
+  background-color:rgba(139, 174, 102, 0.4);
+  border-radius: 8px; 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 10px 20px
+}
+
+.card-content-detail > h3 {
+  font-feature-settings: "tnum" on, "lnum" on;
+  text-align: end;
+  margin-left: auto;
+  font-size: 33px;
+  font-weight: 100;
+  word-spacing: 1px;
+}
+
+/* latin */
+.card-content-detail > h2 {
+  text-align: left;
+  font-weight: 100;
+  font-size: 15px;
+  color: #1B211A;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+
+.card-content-detail > h4 {
+  margin-top: 10px;
+  margin-right: auto;
+  text-align: left;
+  font-weight: 100;
+}
+
+
