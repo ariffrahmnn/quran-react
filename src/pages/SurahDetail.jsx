@@ -27,42 +27,21 @@ export default function SurahDetail() {
     <div style={{ padding: '20px' }}>
     
       <h1 style={{
-        marginBottom: '100px',
+        marginBottom: '80px',
         
-        }}>{detail.namaLatin} ({detail.nama})</h1>
+        }}><Link to="/">←</Link> {detail.namaLatin} ({detail.nama})</h1>
+      
+      <div className='card-container-detail'>
+        {detail.ayat.map((item) => (
+        <div className='card-content-detail'
+          key={item.nomorAyat}>
+          <h3> {item.teksArab} <span style={{fontSize: '18px'}}>({item.nomorAyat})</span></h3>
+          <h2>{item.teksLatin}</h2>
+          <h4>{item.teksIndonesia}</h4>
+        </div>
+        ))}
+      </div>
 
-      <hr />
-      <Link to="/">← Kembali ke Daftar</Link>
-      {detail.ayat.map((item) => (
-       <div 
-       key={item.nomorAyat} 
-       style={{ 
-         marginBottom: '20px', // Jarak antar kotak ayat
-         padding: '20px', 
-         borderBottom: '1px solid #333', // Garis tipis pemisah
-         backgroundColor: '#1a1a1a' // Background gelap agar nyaman di mata
-       }}
-     >
-       {/* Teks Arab dengan font Amiri dan jarak baris tinggi */}
-       <p className="arabic-text" style={{ 
-         fontSize: '20px', 
-         margin: '0 0 20px 0', 
-         color: '#ffffff' 
-       }}>
-         {item.teksArab} <span style={{ fontSize: '1.2rem', color: '#888' }}>({item.nomorAyat})</span>
-       </p>
-       
-       {/* Teks Terjemahan */}
-       <p style={{ 
-         textAlign: 'left', 
-         color: '#ccc', 
-         lineHeight: '1.6', 
-         fontSize: '1rem' 
-       }}>
-         {item.teksIndonesia}
-       </p>
-     </div>
-      ))}
     </div>
   );
 }
