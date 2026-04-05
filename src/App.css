@@ -1,8 +1,0 @@
-@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&display=swap');
-
-/* Class khusus untuk teks Arab */
-.arabic-text {
-  font-family: 'Amiri', serif;
-  line-height: 2.5; 
-  direction: rtl;    
-}
