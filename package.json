@@ -1,7 +1,6 @@
 {
-  "homepage": "https://ariffrahmnn.github.io/quran-react",
   "name": "my-first-react-app",
-  "private": true,
+  "homepage": "https://ariffrahmnn.github.io/quran-react",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
