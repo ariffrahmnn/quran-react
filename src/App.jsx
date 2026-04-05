@@ -14,7 +14,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={
+        <Route path="/quran-react" element={
           <>
             <Hero onExploreClick={scrollToQuotes} />
             
