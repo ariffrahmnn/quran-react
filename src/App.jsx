@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom';
 import { useRef } from 'react';
 import Hero from './components/hero';
 import Footer from './components/footer';
@@ -12,7 +12,7 @@ export default function App() {
     quranListRef.current?.scrollIntoView({ behavior: 'smooth' });
   };
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={
           <>
@@ -26,6 +26,6 @@ export default function App() {
         <Route path="/surat/:nomor" element={<SurahDetail />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
